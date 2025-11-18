@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ title, description, image, buttonText }) => {
+const Card = ({ title, description, images, buttonText }) => {
   return (
     <div className="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
       {image && (
